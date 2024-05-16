@@ -43,7 +43,7 @@ This project is designed to simulate the experience of caring for a virtual pet.
 - Deployment: GitHub Pages for hosting the live version of the game
 
 ## Component Architecture
-- App Component: The main component that encapsulates the entire game logic and state.
+- Game Component: The main component that encapsulates the entire game logic and state.
 - Pet Component: Displays the pet along with any animations or status changes.
 - Controls Component: Includes interactive buttons for feeding, playing with, and putting the pet to sleep.
 - Status Display Component: Shows real-time indicators for the pet’s health and happiness.
