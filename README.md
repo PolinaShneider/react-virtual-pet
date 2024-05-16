@@ -2,7 +2,7 @@
 
 You can create / feed / interact with your virtual pet
 
-![Sample UI](assets/image.webp)
+![Sample UI](assets/image.png)
 
 Enjoy!
 
@@ -21,30 +21,29 @@ npm run start
 ```
 
 ## Project Overview
-This project aims to create a virtual pet game, similar to Tamagotchi, where users can interact with their virtual pet through various activities such as feeding, playing, and caring for it. The project will demonstrate the use of state management in React and provide a playful interaction experience.
+This project is designed to simulate the experience of caring for a virtual pet. Users can interact with their pet through various activities that affect its health and happiness. The game demonstrates effective state management using React Hooks and provides an engaging user interaction model.
 
 ## Features
-* Pet Creation: Users can choose the type of pet and name it.
-* Feeding Mechanism: Includes a button to feed the pet, affecting its health and happiness.
-* Health Indicator: Visual indicator of the pet's health that decreases over time or as a result of neglect.
-* Happiness Indicator: Measures the pet’s happiness, which increases with play and feeding.
-* Play Function: Users can play with their pet to increase its happiness.
-* Sleep/Rest: Pets can be put to sleep, during which health and happiness regenerate slowly.
-* Death and Restart: The pet can 'die' if health reaches zero. Users can then restart with a new pet.
+- Health Indicator: A visual gauge shows the pet’s health, which declines over time or due to neglect.
+- Happiness Indicator: A meter indicates the pet's happiness, which can be increased through play and feeding.
+- Play Function: Interactive play increases the pet's happiness.
+- Sleep/Rest: Putting the pet to sleep allows health and happiness to regenerate.
+- Feeding Mechanism: A button allows users to feed the pet, improving both health and happiness.
+- Death and Restart: If the pet's health reaches zero, it will 'die'. Users can then choose to restart the game with a new pet.
 
 ## Technology Stack
-* Frontend: React (Create React App)
-* State Management: React Hooks (useState, useEffect)
-* Styling: CSS Modules
-* Deployment: GitHub Pages
+- Frontend: React (Create React App)
+- State Management: React Hooks (useState, useEffect, useCallback)
+- Styling: CSS Modules for component-specific styling
+- Deployment: GitHub Pages for hosting the live version of the game
 
 ## Component Architecture
-* App Component: Main component that holds the overall layout and state.
-* Pet Component: Displays the pet and its animations.
-* Controls Component: Buttons for feeding, playing, and sleeping functionalities.
-* Status Display Component: Visual indicators for health and happiness levels.
-* Restart Component: Button that allows restarting the game with a new pet after death.
+- App Component: The main component that encapsulates the entire game logic and state.
+- Pet Component: Displays the pet along with any animations or status changes.
+- Controls Component: Includes interactive buttons for feeding, playing with, and putting the pet to sleep.
+- Status Display Component: Shows real-time indicators for the pet’s health and happiness.
+- Restart Component: Allows users to restart the game with a new pet upon the current pet's death.
 
 ## Data Flow
-* Use `useState` to manage the states of health, happiness, and other attributes.
-* `useEffect` will handle the lifecycle of the pet, including decrementing health and happiness over time and checking for the conditions of death.
+- State Management: Using useState to track and update the pet’s health, happiness, and activity states.
+- Lifecycle Management: useEffect handles side effects such as automatic decrement of health and happiness and checks for the pet’s life conditions.

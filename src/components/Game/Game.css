@@ -1,0 +1,9 @@
+.game-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 16px;
+}
