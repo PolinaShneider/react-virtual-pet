@@ -6,9 +6,7 @@ You can create / feed / interact with your virtual pet
 
 Enjoy!
 
-```
 https://polinashneider.github.io/react-virtual-pet/
-```
 
 ## Development
 
