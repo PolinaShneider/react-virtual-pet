@@ -12,7 +12,7 @@ function Pet({ health, happiness, changePet, setChangePet }) {
     useEffect(() => {
         setPet(getRandomPet())
         setChangePet(false);
-    }, [changePet]);
+    }, [changePet, setChangePet]);
     return (
         <div className="pet-container">
             <div className="pet">{pet}</div>

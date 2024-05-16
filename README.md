@@ -7,17 +7,24 @@ You can create / feed / interact with your virtual pet
 Enjoy!
 
 ```
-<link to GitHub pages>
+https://polinashneider.github.io/react-virtual-pet/
 ```
 
 ## Development
 
+Install dependencies
 ```shell
 npm i
 ```
 
+Launch locally
 ```shell
 npm run start
+```
+
+Deploy
+```shell
+npm run deploy
 ```
 
 ## Project Overview
