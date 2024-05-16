@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-virtual-pet/static/css/main.a0ba9d02.css",
+    "main.js": "/react-virtual-pet/static/js/main.8d5a67ea.js",
+    "index.html": "/react-virtual-pet/index.html",
+    "main.a0ba9d02.css.map": "/react-virtual-pet/static/css/main.a0ba9d02.css.map",
+    "main.8d5a67ea.js.map": "/react-virtual-pet/static/js/main.8d5a67ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0ba9d02.css",
+    "static/js/main.8d5a67ea.js"
+  ]
+}
