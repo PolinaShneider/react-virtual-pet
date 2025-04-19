@@ -2,7 +2,7 @@
 
 You can create / feed / interact with your virtual pet
 
-![Sample](assets/demo.png)
+![Test](assets/demo.png)
 
 Enjoy!
 
