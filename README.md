@@ -2,7 +2,7 @@
 
 You can create / feed / interact with your virtual pet
 
-![Sample UI](assets/demo.png)
+![Sample](assets/demo.png)
 
 Enjoy!
 
@@ -11,24 +11,29 @@ https://polinashneider.github.io/react-virtual-pet/
 ## Development
 
 Install dependencies
+
 ```shell
 npm i
 ```
 
 Launch locally
+
 ```shell
 npm run start
 ```
 
 Deploy
+
 ```shell
 npm run deploy
 ```
 
 ## Project Overview
+
 This project is designed to simulate the experience of caring for a virtual pet. Users can interact with their pet through various activities that affect its health and happiness. The game demonstrates effective state management using React Hooks and provides an engaging user interaction model.
 
 ## Features
+
 - Health Indicator: A visual gauge shows the pet’s health, which declines over time or due to neglect.
 - Happiness Indicator: A meter indicates the pet's happiness, which can be increased through play and feeding.
 - Play Function: Interactive play increases the pet's happiness.
@@ -37,12 +42,14 @@ This project is designed to simulate the experience of caring for a virtual pet.
 - Death and Restart: If the pet's health reaches zero, it will 'die'. Users can then choose to restart the game with a new pet.
 
 ## Technology Stack
+
 - Frontend: React (Create React App)
 - State Management: React Hooks (useState, useEffect, useCallback)
 - Styling: CSS Modules for component-specific styling
 - Deployment: GitHub Pages for hosting the live version of the game
 
 ## Component Architecture
+
 - Game Component: The main component that encapsulates the entire game logic and state.
 - Pet Component: Displays the pet along with any animations or status changes.
 - Controls Component: Includes interactive buttons for feeding, playing with, and putting the pet to sleep.
@@ -50,5 +57,6 @@ This project is designed to simulate the experience of caring for a virtual pet.
 - Restart Component: Allows users to restart the game with a new pet upon the current pet's death.
 
 ## Data Flow
+
 - State Management: Using useState to track and update the pet’s health, happiness, and activity states.
 - Lifecycle Management: useEffect handles side effects such as automatic decrement of health and happiness and checks for the pet’s life conditions.
